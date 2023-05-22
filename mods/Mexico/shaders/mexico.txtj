@@ -15,6 +15,7 @@ half4 main(float2 xy)
     //Sample texture color
     half4 color = iChunk.eval(xy);
     
-    //Apply tint color
+    //Apply tint colorjejej
+    
     return pow(color, TINT);
-}
+} amen
